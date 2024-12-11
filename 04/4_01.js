@@ -1,29 +1,27 @@
-let mon = 1;
-if (a >= 1 && 12) {
-    console.log('mon'); 
-} else if (a =1) {
+let mon = 3;
+ if (mon == 1) {
     console.log('January'); 
-} else if (a =2) {
-    console.log('February'); 
-} else if (a =3) {
+} else if (mon == 2) {
+    console.log('Februmonry'); 
+} else if ( mon == 3) {
     console.log('March'); 
-} else if (a =4) {
+} else if (mon == 4) {
     console.log('April'); 
-} else if (a =5) {
+} else if (mon == 5) {
     console.log('May'); 
-} else if (a =6) {
+} else if (mon == 6) {
     console.log('June'); 
-} else if (a =7) {
+} else if (mon == 7) {
     console.log('July'); 
-} else if (a =8) {
+} else if (mon == 8) {
     console.log('August'); 
-} else if (a =9) {
+} else if (mon == 9) {
     console.log('September'); 
-} else if (a =10) {
+} else if (mon == 10) {
     console.log('October'); 
-} else if (a =11) {
+} else if (mon == 11) {
     console.log('November'); 
-} else if (a =12) {
+} else if (mon == 12) {
     console.log('December'); 
 } else {
     console.log('不明です');    
