@@ -26,9 +26,7 @@ let fruits = [APPLE, ORANGE, GRAPE];
 let totalWeight = 0;
 
 // 3つのオブジェクトの総重量を出力
-fruits.forEach(e => {
-    totalWeight += e.weight;
-});
+fruits.forEach(e => totalWeight += e.weight);
 
 console.log(totalWeight + 'g');
 
