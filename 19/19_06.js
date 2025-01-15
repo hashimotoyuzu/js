@@ -11,10 +11,29 @@
     render() {
       return React.createElement(
         "button",
-        { onClick:() => this.setState({ count : this.state.count - 1 })},
+        // { onClick:() => {
+        //   let i = 10;
+        //   if (i > 0 ) {
+        //     this.setState({ count : this.state.count - 1 })
+        //   } else if (i < 0 ) {
+        //     console.log(this.state = { count : 10 })
+        //   }
+        //   }
+        // },
+        { onClick: () => this.setState({ count: this.state.count === 1 ? 100 : this.state.count - 1 }) },
         "カウント数：" + this.state.count
-      );
+      );   
     }
+
+    // countdown(count){
+    //   // if(count === 1){
+    //   //   return 100;
+    //   // }else{
+    //   //   return count - 1;
+    //   // }
+    //   // let new_count = count === 1 ? 100 : count - 1;
+    //   return count === 1 ? 100 : count - 1;
+    // }
   }
 
   // 表示される場所の要素とコンポーネントを結び付けて表示させる
